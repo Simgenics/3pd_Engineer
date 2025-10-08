@@ -546,7 +546,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6644101678434968454
 RectTransform:
   m_ObjectHideFlags: 0
@@ -663,14 +663,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1254902, g: 0.5882353, b: 0.95294124, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 98e8e1cf8dc7dbf469617c2e40c8a944, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 916690da8c3f45c4baee0619241031ca, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -802,12 +802,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &5159471991605152594
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,16 +910,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7704928045518276658}
-  - component: {fileID: 1235815085439152520}
-  - component: {fileID: 1500160372685541712}
-  - component: {fileID: 789430947330099364}
-  - component: {fileID: 1087829795483463501}
-  - component: {fileID: 6431184751727513937}
-  - component: {fileID: 8757728370908852534}
-  - component: {fileID: 6033244255775316624}
-  - component: {fileID: 5766463852265483045}
-  - component: {fileID: 6074684218298871519}
-  - component: {fileID: 7944617789098479143}
+  - component: {fileID: -3308507600427268949}
+  - component: {fileID: 5824569565595022364}
+  - component: {fileID: 4804336812253749554}
+  - component: {fileID: -895072998327892484}
+  - component: {fileID: 433900435569718507}
+  - component: {fileID: -7525581547233072623}
+  - component: {fileID: 7696236008995136375}
+  - component: {fileID: 1165351252522779585}
+  - component: {fileID: -8253674442737656470}
+  - component: {fileID: -1006115278887787417}
   m_Layer: 0
   m_Name: StartUp
   m_TagString: Untagged
@@ -944,7 +944,7 @@ Transform:
   - {fileID: 328768358035573809}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1235815085439152520
+--- !u!114 &-3308507600427268949
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -953,10 +953,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8677738347552842069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1987854765, guid: a7fb078c7fe56a845a72b03d52499bf3, type: 3}
+  m_Script: {fileID: -1987854765, guid: 1d9c1483cd1307247a032a3f58000277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1500160372685541712
+--- !u!114 &5824569565595022364
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -965,10 +965,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8677738347552842069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1747298920, guid: a7fb078c7fe56a845a72b03d52499bf3, type: 3}
+  m_Script: {fileID: -1747298920, guid: 1d9c1483cd1307247a032a3f58000277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &789430947330099364
+--- !u!114 &4804336812253749554
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -977,7 +977,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8677738347552842069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1666302830, guid: a7fb078c7fe56a845a72b03d52499bf3, type: 3}
+  m_Script: {fileID: 1666302830, guid: 1d9c1483cd1307247a032a3f58000277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_DevUrl: https://<resource-name>.azurewebsites.net
@@ -985,7 +985,7 @@ MonoBehaviour:
   m_ApiRoute: 
   m_Tenant: simgen-dev
   m_DeploymentURL: 
---- !u!114 &1087829795483463501
+--- !u!114 &-895072998327892484
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -994,7 +994,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8677738347552842069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1712384676, guid: a7fb078c7fe56a845a72b03d52499bf3, type: 3}
+  m_Script: {fileID: 1712384676, guid: 1d9c1483cd1307247a032a3f58000277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cloudAssets: 0
@@ -1002,7 +1002,7 @@ MonoBehaviour:
   storageConfig: {fileID: 0}
   storeTextures: 0
   currentlyLoadedBundleScene: 
---- !u!114 &6431184751727513937
+--- !u!114 &433900435569718507
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1011,10 +1011,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8677738347552842069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1105665500, guid: a7fb078c7fe56a845a72b03d52499bf3, type: 3}
+  m_Script: {fileID: 1105665500, guid: 1d9c1483cd1307247a032a3f58000277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8757728370908852534
+--- !u!114 &-7525581547233072623
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1023,10 +1023,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8677738347552842069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -444314754, guid: a7fb078c7fe56a845a72b03d52499bf3, type: 3}
+  m_Script: {fileID: -444314754, guid: 1d9c1483cd1307247a032a3f58000277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6033244255775316624
+--- !u!114 &7696236008995136375
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1035,10 +1035,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8677738347552842069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1469815469, guid: a7fb078c7fe56a845a72b03d52499bf3, type: 3}
+  m_Script: {fileID: -1469815469, guid: 1d9c1483cd1307247a032a3f58000277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5766463852265483045
+--- !u!114 &1165351252522779585
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1047,10 +1047,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8677738347552842069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 973831379, guid: a7fb078c7fe56a845a72b03d52499bf3, type: 3}
+  m_Script: {fileID: 973831379, guid: 1d9c1483cd1307247a032a3f58000277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6074684218298871519
+--- !u!114 &-8253674442737656470
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1059,10 +1059,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8677738347552842069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1393945136, guid: a7fb078c7fe56a845a72b03d52499bf3, type: 3}
+  m_Script: {fileID: -1393945136, guid: 1d9c1483cd1307247a032a3f58000277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7944617789098479143
+--- !u!114 &-1006115278887787417
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8677738347552842069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -25678401, guid: a7fb078c7fe56a845a72b03d52499bf3, type: 3}
+  m_Script: {fileID: -25678401, guid: 1d9c1483cd1307247a032a3f58000277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   progressPanel: {fileID: 2354941404103924334}

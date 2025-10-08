@@ -1,4 +1,16 @@
 {
-	"name": "EditorScripts",
-        "precompiledReferences": ["Engineer Station Editor.dll"]
+    "name": "EditorScripts",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "RLM Manager.dll", "Engineer Station Editor.dll", "Engineer Station Runtime"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

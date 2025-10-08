@@ -16,7 +16,7 @@
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
-    "precompiledReferences": ["Engineer Station Runtime.dll"],
+    "precompiledReferences": ["Engineer Station Runtime.dll", "rlm1242.dll", "Engineer Station Editor.dll"],
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
