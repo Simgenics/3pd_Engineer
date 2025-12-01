@@ -2,8 +2,15 @@
     "name": "RuntimeScripts",
     "rootNamespace": "",
     "references": [
-        "Unity.XR.Interaction.Toolkit"
-    ],
+        "Unity.XR.Interaction.Toolkit",
+        "Unity.mathematics",
+	"Unity.XR.CoreUtils",
+	"Unity.XR.LegacyInputHelpers",
+	"Unity.XR.OpenXR",
+        "Unity.XR.OpenXR.Features",
+	"UnityEngine.XR.Hands",
+        "UnityEngine.XR.Hands.Provider",
+     ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
