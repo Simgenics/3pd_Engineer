@@ -1,13 +1,13 @@
 {
     "name": "EditorScripts",
     "rootNamespace": "",
-    "references": [],
+    "references": ["Unity.Addressables.Editor"],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [
-        "RLM Manager.dll", "Engineer Station Editor.dll", "Engineer Station Runtime"
+        "RLM Manager.dll", "Engineer Station Editor.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],
