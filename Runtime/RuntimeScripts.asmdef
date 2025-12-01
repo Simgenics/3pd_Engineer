@@ -12,7 +12,8 @@
         "UnityEngine.XR.Hands",
         "UnityEngine.XR.Hands.Provider",
         "Unity.VisualScripting",
-        "Unity.VisualScripting.Flow" 
+        "Unity.VisualScripting.Flow",
+        "Unity.VisualScripting.Core"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
