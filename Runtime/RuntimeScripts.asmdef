@@ -2,7 +2,8 @@
     "name": "RuntimeScripts",
     "rootNamespace": "",
     "references": [
-        "Unity.TextMeshPro"
+        "Unity.Addressables.Editor",
+        "Unity.TextMeshPro",
         "Unity.XR.Interaction.Toolkit",
         "Unity.Mathematics",
 	"Unity.XR.CoreUtils",
