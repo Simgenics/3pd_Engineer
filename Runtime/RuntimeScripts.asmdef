@@ -10,7 +10,8 @@
         "Unity.XR.OpenXR",
         "Unity.XR.OpenXR.Features",
         "UnityEngine.XR.Hands",
-        "UnityEngine.XR.Hands.Provider"
+        "UnityEngine.XR.Hands.Provider",
+         Unity.VisualScripting    
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
