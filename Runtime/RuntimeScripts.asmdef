@@ -2,6 +2,7 @@
     "name": "RuntimeScripts",
     "rootNamespace": "",
     "references": [
+        "Unity.TextMeshPro",
         "Unity.XR.Interaction.Toolkit",
         "Unity.Mathematics",
         "Unity.XR.CoreUtils",
