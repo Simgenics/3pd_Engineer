@@ -47,8 +47,8 @@
 	"com.unity.ugui": "1.0.0",
 	"com.unity.render-pipelines.universal": "14.0.10",
 	"com.unity.visualscripting": "1.9.7",
-	"com.unity.xr.hands": "1.3.0",
-	"com.unity.xr.interaction.toolkit": "2.5.2",
-	"com.unity.xr.management": "4.4.0"
+	"com.unity.xr.hands": "1.4.3",
+	"com.unity.xr.interaction.toolkit": "3.0.8",
+	"com.unity.xr.management": "4.5.1"
     }
 }
